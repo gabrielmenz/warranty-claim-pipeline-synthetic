@@ -1,0 +1,41 @@
+# outputs
+out/
+outputs/
+results/
+*.log
+
+# raw/internal data (must never be committed)
+data/raw/
+data/internal/
+data/private/
+**/*real*
+**/*internal*
+**/*confidential*
+**/*bosch*
+**/*oem*
+
+# common data formats
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.pickle
+*.feather
+*.db
+*.sqlite
+*.zip
+*.7z
+
+# secrets / env
+.env
+.env.*
+**/*secrets*
+**/*token*
+**/*key*
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
